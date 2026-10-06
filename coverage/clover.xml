@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1791272167789" clover="3.2.0">
+  <project timestamp="1791272167790" name="All files">
+    <metrics statements="156" coveredstatements="145" conditionals="59" coveredconditionals="40" methods="60" coveredmethods="53" elements="275" coveredelements="238" complexity="0" loc="156" ncloc="156" packages="1" files="10" classes="10"/>
+    <file name="AssignmentCard.tsx" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\AssignmentCard.tsx">
+      <metrics statements="9" coveredstatements="8" conditionals="18" coveredconditionals="12" methods="4" coveredmethods="3"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="20" count="9" type="stmt"/>
+      <line num="21" count="9" type="stmt"/>
+      <line num="23" count="9" type="stmt"/>
+      <line num="47" count="2" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="62" count="0" type="stmt"/>
+      <line num="71" count="2" type="stmt"/>
+    </file>
+    <file name="AssignmentForm.tsx" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\AssignmentForm.tsx">
+      <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="21" type="stmt"/>
+      <line num="10" count="21" type="stmt"/>
+      <line num="11" count="21" type="stmt"/>
+      <line num="12" count="21" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="2" type="cond" truecount="4" falsecount="0"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="27" count="21" type="stmt"/>
+      <line num="34" count="10" type="stmt"/>
+      <line num="43" count="6" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+    </file>
+    <file name="AssignmentList.tsx" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\AssignmentList.tsx">
+      <metrics statements="53" coveredstatements="45" conditionals="15" coveredconditionals="8" methods="16" coveredmethods="12"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="6" type="stmt"/>
+      <line num="27" count="6" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="44" count="12" type="stmt"/>
+      <line num="45" count="23" type="stmt"/>
+      <line num="46" count="37" type="stmt"/>
+      <line num="47" count="37" type="stmt"/>
+      <line num="48" count="12" type="stmt"/>
+      <line num="49" count="12" type="stmt"/>
+      <line num="50" count="12" type="stmt"/>
+      <line num="51" count="12" type="stmt"/>
+      <line num="53" count="12" type="stmt"/>
+      <line num="54" count="11" type="cond" truecount="3" falsecount="0"/>
+      <line num="55" count="4" type="stmt"/>
+      <line num="56" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="57" count="0" type="stmt"/>
+      <line num="59" count="4" type="stmt"/>
+      <line num="64" count="12" type="stmt"/>
+      <line num="65" count="4" type="cond" truecount="0" falsecount="1"/>
+      <line num="66" count="0" type="cond" truecount="0" falsecount="3"/>
+      <line num="67" count="0" type="stmt"/>
+      <line num="72" count="0" type="stmt"/>
+      <line num="76" count="12" type="stmt"/>
+      <line num="77" count="0" type="stmt"/>
+      <line num="80" count="12" type="stmt"/>
+      <line num="81" count="12" type="stmt"/>
+      <line num="83" count="12" type="stmt"/>
+      <line num="84" count="7" type="stmt"/>
+      <line num="85" count="7" type="stmt"/>
+      <line num="87" count="6" type="stmt"/>
+      <line num="90" count="3" type="stmt"/>
+      <line num="91" count="3" type="stmt"/>
+      <line num="92" count="3" type="stmt"/>
+      <line num="96" count="12" type="stmt"/>
+      <line num="97" count="7" type="stmt"/>
+      <line num="101" count="12" type="cond" truecount="1" falsecount="0"/>
+      <line num="102" count="8" type="cond" truecount="1" falsecount="0"/>
+      <line num="103" count="1" type="stmt"/>
+      <line num="106" count="7" type="stmt"/>
+      <line num="116" count="0" type="stmt"/>
+      <line num="117" count="0" type="stmt"/>
+      <line num="122" count="0" type="stmt"/>
+    </file>
+    <file name="StatisticsPage.tsx" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\StatisticsPage.tsx">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+    </file>
+    <file name="api.ts" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\api.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+    </file>
+    <file name="assignmentsSlice.ts" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\assignmentsSlice.ts">
+      <metrics statements="24" coveredstatements="24" conditionals="3" coveredconditionals="2" methods="11" coveredmethods="10"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="20" count="3" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="35" count="2" type="stmt"/>
+      <line num="36" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="45" count="3" type="stmt"/>
+      <line num="47" count="5" type="stmt"/>
+      <line num="48" count="5" type="stmt"/>
+      <line num="51" count="3" type="stmt"/>
+      <line num="52" count="3" type="stmt"/>
+      <line num="53" count="3" type="stmt"/>
+      <line num="56" count="2" type="stmt"/>
+      <line num="57" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="62" count="3" type="stmt"/>
+      <line num="64" count="3" type="stmt"/>
+      <line num="65" count="3" type="stmt"/>
+    </file>
+    <file name="performanceMetrics.ts" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\performanceMetrics.ts">
+      <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="6" type="cond" truecount="0" falsecount="1"/>
+      <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="0" type="cond" truecount="0" falsecount="1"/>
+    </file>
+    <file name="useDebounce.ts" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\useDebounce.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="3" count="2" type="cond" truecount="0" falsecount="1"/>
+      <line num="4" count="15" type="stmt"/>
+      <line num="6" count="15" type="stmt"/>
+      <line num="7" count="6" type="stmt"/>
+      <line num="8" count="6" type="stmt"/>
+      <line num="11" count="15" type="stmt"/>
+    </file>
+    <file name="usePinStore.ts" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\usePinStore.ts">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+    </file>
+    <file name="utils.ts" path="C:\Users\cuong\OneDrive\Documents\Code\LTWNC\Baithuchanhso2\src\features\assignments\utils.ts">
+      <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
+      <line num="3" count="6" type="stmt"/>
+      <line num="6" count="50" type="stmt"/>
+      <line num="9" count="6" type="stmt"/>
+      <line num="14" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="6" type="cond" truecount="1" falsecount="0"/>
+      <line num="18" count="11" type="stmt"/>
+      <line num="23" count="6" type="cond" truecount="1" falsecount="0"/>
+      <line num="24" count="3" type="stmt"/>
+      <line num="26" count="5" type="stmt"/>
+      <line num="27" count="5" type="cond" truecount="1" falsecount="0"/>
+      <line num="28" count="5" type="cond" truecount="1" falsecount="0"/>
+      <line num="29" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="5" type="stmt"/>
+      <line num="36" count="6" type="cond" truecount="1" falsecount="0"/>
+      <line num="37" count="3" type="stmt"/>
+      <line num="38" count="3" type="stmt"/>
+      <line num="39" count="3" type="stmt"/>
+      <line num="40" count="20000" type="stmt"/>
+      <line num="41" count="20000" type="stmt"/>
+      <line num="42" count="20000" type="stmt"/>
+      <line num="52" count="6" type="stmt"/>
+    </file>
+  </project>
+</coverage>
