@@ -16,7 +16,7 @@ import { isDevelopment } from '../../app/environment';
 
 interface RowData {
   assignments: Assignment[];
-  pinnedIds: string[];
+  pinnedIds: ReadonlySet<string>;
   onToggleCompleted: (id: string) => void;
   onTogglePin: (id: string) => void;
   onRemove: (id: string) => void;
@@ -29,7 +29,7 @@ const AssignmentRow = memo(({ index, style, data }: ListChildComponentProps<RowD
       <Profiler id={`AssignmentCard-${assignment.id}`} onRender={recordAssignmentCardRender}>
         <AssignmentCard
           assignment={assignment}
-          pinned={data.pinnedIds.includes(assignment.id)}
+          pinned={data.pinnedIds.has(assignment.id)}
           onToggleCompleted={data.onToggleCompleted}
           onTogglePin={data.onTogglePin}
           onRemove={data.onRemove}
@@ -79,6 +79,7 @@ export function AssignmentList() {
   );
   const onRemove = useCallback((id: string) => dispatch(removeAssignment(id)), [dispatch]);
   const onTogglePin = useCallback((id: string) => togglePin(id), [togglePin]);
+  const pinnedIdSet = useMemo(() => new Set(pinnedIds), [pinnedIds]);
 
   const visibleAssignments = useMemo(() => {
     const normalizedSearch = debouncedSearch.trim().toLocaleLowerCase('vi');
@@ -87,15 +88,15 @@ export function AssignmentList() {
         `${assignment.title} ${assignment.subject}`.toLocaleLowerCase('vi').includes(normalizedSearch),
       )
       .sort((left, right) => {
-        const leftPinned = pinnedIds.includes(left.id);
-        const rightPinned = pinnedIds.includes(right.id);
+        const leftPinned = pinnedIdSet.has(left.id);
+        const rightPinned = pinnedIdSet.has(right.id);
         return Number(rightPinned) - Number(leftPinned);
       });
-  }, [items, debouncedSearch, pinnedIds]);
+  }, [items, debouncedSearch, pinnedIdSet]);
 
   const rowData = useMemo(
-    () => ({ assignments: visibleAssignments, pinnedIds, onToggleCompleted, onTogglePin, onRemove }),
-    [visibleAssignments, pinnedIds, onToggleCompleted, onTogglePin, onRemove],
+    () => ({ assignments: visibleAssignments, pinnedIds: pinnedIdSet, onToggleCompleted, onTogglePin, onRemove }),
+    [visibleAssignments, pinnedIdSet, onToggleCompleted, onTogglePin, onRemove],
   );
 
   if (status === 'loading') return <p className="status-message" role="status">Đang tải bài tập…</p>;
